@@ -1,0 +1,26 @@
+<annotation>
+	<folder>train</folder>
+	<filename>2020_10_15_07_53_13.jpg</filename>
+	<path>C:\Users\manhd\Workplace\Project 2020\data\train\2020_10_15_07_53_13.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>phy_plate</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>259</xmin>
+			<ymin>1</ymin>
+			<xmax>559</xmax>
+			<ymax>206</ymax>
+		</bndbox>
+	</object>
+</annotation>
