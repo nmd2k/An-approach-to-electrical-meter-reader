@@ -1,0 +1,36 @@
+2021-03-24 11:40:01,546 INFO    MainThread:4665 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-24 11:40:01,546 INFO    MainThread:4665 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-24 11:40:01,546 INFO    MainThread:4665 [wandb_init.py:_log_setup():334] Logging user logs to /home/manhdung/Workplace/An-approach-to-electrical-meter-reader/wandb/run-20210324_114001-3ip16ert/logs/debug.log
+2021-03-24 11:40:01,546 INFO    MainThread:4665 [wandb_init.py:_log_setup():335] Logging internal logs to /home/manhdung/Workplace/An-approach-to-electrical-meter-reader/wandb/run-20210324_114001-3ip16ert/logs/debug-internal.log
+2021-03-24 11:40:01,546 INFO    MainThread:4665 [wandb_init.py:init():367] calling init triggers
+2021-03-24 11:40:01,546 INFO    MainThread:4665 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2021-03-24 11:40:01,546 INFO    MainThread:4665 [wandb_init.py:init():416] starting backend
+2021-03-24 11:40:01,547 INFO    MainThread:4665 [backend.py:_multiprocessing_setup():69] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-03-24 11:40:01,572 INFO    MainThread:4665 [backend.py:ensure_launched():123] starting backend process...
+2021-03-24 11:40:01,591 INFO    MainThread:4665 [backend.py:ensure_launched():127] started backend process with pid: 4719
+2021-03-24 11:40:01,592 INFO    MainThread:4665 [wandb_init.py:init():421] backend started and connected
+2021-03-24 11:40:01,594 INFO    MainThread:4665 [wandb_init.py:init():461] updated telemetry
+2021-03-24 11:40:01,594 INFO    MainThread:4665 [wandb_init.py:init():480] communicating current version
+2021-03-24 11:40:02,343 INFO    MainThread:4665 [wandb_init.py:init():485] got version response upgrade_message: "wandb version 0.10.23 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-03-24 11:40:02,344 INFO    MainThread:4665 [wandb_init.py:init():493] communicating run to backend with 30 second timeout
+2021-03-24 11:40:02,699 INFO    MainThread:4665 [wandb_init.py:init():518] starting run threads in backend
+2021-03-24 11:40:02,787 INFO    MainThread:4665 [wandb_run.py:_console_start():1480] atexit reg
+2021-03-24 11:40:02,787 INFO    MainThread:4665 [wandb_run.py:_redirect():1343] redirect: SettingsConsole.REDIRECT
+2021-03-24 11:40:02,788 INFO    MainThread:4665 [wandb_run.py:_redirect():1348] Redirecting console.
+2021-03-24 11:40:02,788 INFO    MainThread:4665 [redirect.py:install():213] install start
+2021-03-24 11:40:02,788 INFO    MainThread:4665 [redirect.py:install():228] install stop
+2021-03-24 11:40:02,788 INFO    MainThread:4665 [redirect.py:install():213] install start
+2021-03-24 11:40:02,788 INFO    MainThread:4665 [redirect.py:install():228] install stop
+2021-03-24 11:40:02,788 INFO    MainThread:4665 [wandb_run.py:_redirect():1394] Redirects installed.
+2021-03-24 11:40:02,789 INFO    MainThread:4665 [wandb_init.py:init():542] run started, returning control to user process
+2021-03-24 11:40:50,945 INFO    MainThread:4665 [wandb_setup.py:_flush():69] setting env: {}
+2021-03-24 11:40:50,946 INFO    MainThread:4665 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-03-24 11:40:50,946 INFO    MainThread:4665 [wandb_init.py:_log_setup():334] Logging user logs to /home/manhdung/Workplace/An-approach-to-electrical-meter-reader/wandb/run-20210324_114050-17ko40bb/logs/debug.log
+2021-03-24 11:40:50,946 INFO    MainThread:4665 [wandb_init.py:_log_setup():335] Logging internal logs to /home/manhdung/Workplace/An-approach-to-electrical-meter-reader/wandb/run-20210324_114050-17ko40bb/logs/debug-internal.log
+2021-03-24 11:40:50,946 INFO    MainThread:4665 [wandb_init.py:init():367] calling init triggers
+2021-03-24 11:40:50,946 INFO    MainThread:4665 [wandb_init.py:init():372] wandb.init called with sweep_config: {}
+config: {}
+2021-03-24 11:40:50,946 INFO    MainThread:4665 [wandb_init.py:init():387] re-initializing run, found existing run on stack: 3ip16ert
+2021-03-24 11:40:50,947 INFO    MainThread:4665 [wandb_run.py:finish():1139] finishing run nmd2000/Electric_meter_classifier/3ip16ert
