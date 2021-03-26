@@ -41,12 +41,15 @@ def load_dataset(valid):
 
 def get_dataloader(dataset):
     torch.manual_seed(RANDOM_SEED)
+
     dataloader = dict(
         train=DataLoader(dataset['train'], batch_size=CLASSIFIER_BATCH_SIZE, shuffle=True),
-        valid=DataLoader(dataset['valid'], batch_size=CLASSIFIER_BATCH_SIZE, shuffle=False),
         test=DataLoader(dataset['test'], batch_size=CLASSIFIER_BATCH_SIZE, shuffle=False)
     )
-    
+
+    if(SPLIT_DATASET):
+        dataloader['valid']=DataLoader(dataset['valid'], batch_size=CLASSIFIER_BATCH_SIZE, shuffle=False),
+        
     return dataloader
 
 def get_sample_dataloader(dataset, train_sampler, valid_sampler ,batch_size=CLASSIFIER_BATCH_SIZE):

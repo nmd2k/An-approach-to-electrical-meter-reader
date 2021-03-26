@@ -1,0 +1,27 @@
+  0%|          | 0/100 [00:00<?, ?it/s]  0%|          | 0/100 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/train.py", line 35, in <module>
+    main()
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/train.py", line 32, in main
+    train_classifier(dataset=dataset)
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/model/classifier.py", line 201, in train_classifier
+    train_eval(model=model, dataloader=dataloader, criterion=criterion, epochs=epochs, optim=optimizer, device=device)
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/model/utils.py", line 130, in train_eval
+    train_losses.append(train(model=model, device=device, criterion=criterion, dataloader=dataloader, optim=optim))
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/model/utils.py", line 77, in train
+    pred = model(data)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/model/classifier.py", line 85, in forward
+    x = self.net(x)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/container.py", line 119, in forward
+    input = module(input)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 94, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/functional.py", line 1753, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: mat1 dim 1 must match mat2 dim 0

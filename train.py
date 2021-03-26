@@ -26,10 +26,10 @@ def main():
         print(f"#Training: {len(dataset['train'])} \n#Testing: {len(dataset['test'])}")
 
     # cross validation training
-    cv_train_classifier(dataset=dataset['train'], epochs=10)
+    # cv_score = cv_train_classifier(dataset=dataset['train'])
     
-    # evaluate
-    # test_classifier(model=classifier, dataset=dataset['test'], device=device, criterion=criterion)
+    # training and evaluate
+    train_classifier(dataset=dataset)
 
 if __name__ == '__main__':
     main()

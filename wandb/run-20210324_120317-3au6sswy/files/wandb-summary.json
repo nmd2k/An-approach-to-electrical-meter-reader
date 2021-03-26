@@ -1,1 +1,0 @@
-{"Train Loss": 0.021677661454305053, "_runtime": 44, "_timestamp": 1616562245, "_step": 19, "Examples": {"_type": "images/separated", "width": 150, "height": 150, "format": "png", "count": 1, "captions": ["Pred: 1"]}, "Valid Error": 0.043478260869565216, "Valid Loss": 0.3029549717903137}

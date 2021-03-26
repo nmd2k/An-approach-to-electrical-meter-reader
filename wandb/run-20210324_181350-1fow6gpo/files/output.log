@@ -1,0 +1,13 @@
+  0%|          | 0/10 [00:00<?, ?it/s]  0%|          | 0/10 [00:04<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/train.py", line 35, in <module>
+    main()
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/train.py", line 32, in main
+    train_classifier(dataset=dataset)
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/model/classifier.py", line 148, in train_classifier
+    train_eval(model=model, dataloader=dataloader, criterion=criterion, epochs=epochs, optim=optimizer, device=device)
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/model/utils.py", line 132, in train_eval
+    test_loss, test_error = test(model=model, device=device, criterion=criterion, dataloader=dataloader)
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/model/utils.py", line 187, in test
+    example_images.append(wandb.Image(data[i:], caption=f"Pred: {pred[i:].item()}"))
+ValueError: only one element tensors can be converted to Python scalars

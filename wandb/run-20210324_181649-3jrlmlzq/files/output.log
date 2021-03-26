@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/train.py", line 35, in <module>
+    main()
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/train.py", line 32, in main
+    train_classifier(dataset=dataset)
+  File "/home/manhdung/Workplace/An-approach-to-electrical-meter-reader/model/classifier.py", line 141, in train_classifier
+    model = Classifier().to(device)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/module.py", line 673, in to
+    return self._apply(convert)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/module.py", line 387, in _apply
+    module._apply(fn)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/module.py", line 409, in _apply
+    param_applied = fn(param)
+  File "/home/manhdung/miniconda3/envs/machine-learning/lib/python3.9/site-packages/torch/nn/modules/module.py", line 671, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: out of memory
